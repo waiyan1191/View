@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div#header i{
+	float: left;
+	margin-left: 40px;
+	color: gray;
+}
+
+       @font-face{
+       	          font-family: "wai";
+       	           src:url(Merriweather/Merriweather-Black.ttf);}
+div#header h4{
+	font-family: "wai";
+	font-size: 25px;
+	letter-spacing: 0.2em;
+	margin-left: 10px;
+	margin-top: 0px;
+	color: gray;
+	float: left;
+}
+div#navbar {
+	margin-left: 650px;
+	border: 1px solid #A0A2A3;
+	width: 600px;
+	height: 50px;
+	margin-top: 30px;
+}
+.fl{
+	float: left;
+	width:150px;
+	text-align: center;
+	font-style: bold;
+	font-size: 20px;
+	line-height: 50px;
+	height: 45px;
+}
+div.fl a{
+	text-decoration: none;
+	color: #A0A2A3;
+	font-family: "wai";
+}
+div.fl:hover{
+	border-bottom: 6px solid #78BCDC;
+}
+div.fl a:hover{
+	color: #000;
+	display:block;
+	transition: 1s;
+}
+.clear{
+	clear: both;
+}
+div#bg{
+	margin-top: 20px;
+	margin-left: 0px;
+}
+div#bg img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+div.quote{
+	position: absolute;
+	top:530px;
+	left: 2%;
+	right: 60%;
+	font-size: 30px;
+	background-color: #5DADE2;
+	padding: 20px;
+	font-family: "wai";
+	color: #fff;
+	text-align: center;
+	font-style: bold;
+}
+div#content{
+	margin: 90px 28px;
+}
+div.conimg{
+	float: left;
+}
+div.con{
+	margin-left: 20px;
+	width: 260px;
+	text-align: justify;
+	font-family:wai;
+	float: left;
+}
+div.con p{
+	font-size: 16px;
+	line-height: 2
+}
+div.con h3 {
+	letter-spacing: 0.2em;
+}
+div.conimg1{
+	margin-left: 50px;
+	float: left;
+}
+.row1{
+	margin-top: 70px;
+	margin-left: 10px;
+}
+.col{
+	float: left;
+	margin-left: 20px;
+	width: 395px;
+	height: 340px;
+	border: 1px solid #5DADE2; 
+	border-radius: 10px;
+}
+.col i{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.col h4{
+	font-family: wai;
+	margin-left: 20px;
+	margin-top: 30px;
+	font-size: 21px;
+	letter-spacing: 0.1em
+}
+.col p{
+	margin-right: 20px;
+	margin-left: 20px;
+	font-family: wai;
+	margin-top: 12px;
+	line-height: 2;
+	text-align: justify;
+	font-size: 16px;
+}
+.col button{
+	width: 150px;
+	height: 40px;
+	font-family: wai;
+	margin-left: 220px;
+	color: white;
+	background: skyblue;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	border: none;
+}
+div#footer{
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.ftitle{
+	margin-top: 45px;
+	width: 450px;
+	height: 70px;
+	background: #5DADE2;
+	padding-left:40px ; 
+	font-family: PTsans;
+	letter-spacing: 0.1em;
+	line-height: 3;
+	color: white;
+	font-size: 20px;
+}
+.fimg{
+	margin:50px 28px; 
+}
+div.fimg img{
+	margin-left: 20px;
+
+}
+div.ffimg{
+	margin-left: 20px;
+}
+div.foot{width: 100%;
+	     height: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+div.foot p{
+	font-family:wai;
+	letter-spacing: 0.1em;
+	padding-right: 28px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	font-style: bold;
+}
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-left: 10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 17px;
+  width: 19px;
+  margin: 0 2px;
+  background-color: #5DADE2;
+  display: inline-block;
+  height: 5px;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.slideshow-container img{
+	width: 1300px;
+	height: 200px;
+}
